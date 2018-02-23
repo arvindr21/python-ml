@@ -3,8 +3,8 @@ from sklearn.datasets import load_iris
 from sklearn import tree
 iris = load_iris()
 
-# for i in range(len(iris.target)):
-# 	print "Exampele %d: label %s, features %s" % (i, iris.target[i], iris.data[i])
+for i in range(len(iris.target)):
+    print "Exampele %d: label %s, features %s" % (i, iris.target[i], iris.data[i])
 
 print "Length of total data %d " % len(iris.target)
 
