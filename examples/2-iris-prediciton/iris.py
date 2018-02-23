@@ -1,3 +1,4 @@
+# Video: https://www.youtube.com/watch?v=tNa99PG8hR8&index=2&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal
 import numpy as np
 from sklearn.datasets import load_iris
 from sklearn import tree
@@ -22,7 +23,7 @@ test_data = iris.data[test_idx]
 print "Length of testing data %d " % len(test_target)
 
 clf = tree.DecisionTreeClassifier()
-clf = clf.fit(train_data, train_target)
+clf.fit(train_data, train_target)
 
 print test_target
 print clf.predict(test_data)

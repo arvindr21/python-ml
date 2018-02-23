@@ -1,3 +1,7 @@
+# Image files
+examples/5-image-classification/training_data/*
+examples/5-image-classification/testing_data/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

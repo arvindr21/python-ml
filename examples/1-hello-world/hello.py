@@ -1,3 +1,4 @@
+# Video: https://www.youtube.com/watch?v=cKxRvEZd3Mw&list=PLOU2XLYxmsIIuiBfYad6rFYQU_jL2ryal&index=1
 # Import decision tree
 from sklearn import tree
 # Define features
@@ -8,6 +9,6 @@ labels = [0,0,1,1]
 clf = tree.DecisionTreeClassifier()
 # Fit the feature and labels into the classifier
 # to create a model
-clf = clf.fit(features, labels)
+clf.fit(features, labels)
 # Predict result
 print clf.predict([[160, 0]])
